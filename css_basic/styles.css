@@ -1,0 +1,23 @@
+@import url(https://fonts.googleapis.com/css?family=Yeseva+One);
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:400,700,700italic,400italic);
+
+body {
+    display: flex;
+    flex-direction: column;
+
+}
+main {
+    display: flex;
+    flex-direction:row;
+    flex: 1;
+
+}
+article{
+    flex: 2;
+    overflow-y: auto;
+
+}
+aside{
+    flex: 1;
+    overflow-y: auto;
+}
