@@ -4,8 +4,20 @@
 body {
     display: flex;
     flex-direction: column;
-    margin: 0;
 
+}
+header{
+    display: flex;
+    align-items:center ;
+    background-color: #e0ebeb
+    ;
+    padding: 10px;
+    border-bottom: 2px solid #000000;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
 }
 main {
     display: flex;
@@ -14,10 +26,16 @@ main {
 
 }
 article{
+    background-color: #ffffff;
     flex: 2;
     overflow-y: auto;
 }
+article nav {
+    color: aqua;
+    writing-mode: vertical-rl;
+}
 aside{
+    background-color: #c1c1c1;
     flex: 1;
     overflow-y: auto;
 }
